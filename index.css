@@ -1,4 +1,18 @@
 /* application css */
 body {margin:0px;}
-#main {font-size:200%;}
+#main {font-size:100%;}
 .hl0 {color:red;}
+
+.counterParts {
+	position:absolute;
+	top:-1em;
+	font-size:80%;
+	color:lightgreen;
+	background:rgba(32,128,32,0.2);
+	cursor:pointer;
+}
+.sourcePage {
+	position:absolute;top:-1em;
+	cursor:pointer;
+	font-size:80%;
+	color:lightgreen;}
