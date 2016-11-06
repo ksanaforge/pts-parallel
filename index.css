@@ -16,3 +16,10 @@ body {margin:0px;}
 	cursor:pointer;
 	font-size:80%;
 	color:lightgreen;}
+.bond {color:lightgreen;}
+.bondhandle {
+	position:absolute;top:1em;
+	cursor:pointer;
+	font-size:90%;
+	color:green;
+}
