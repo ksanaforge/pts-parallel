@@ -16,10 +16,15 @@ body {margin:0px;}
 	cursor:pointer;
 	font-size:80%;
 	color:lightgreen;}
-.bond {color:lightgreen;}
+.bond {border-radius: 3px;color:black;}
 .bondhandle {
-	position:absolute;top:1em;
+	position:absolute;top:0.8em;
 	cursor:pointer;
 	font-size:90%;
-	color:green;
+}
+.deletehandle {
+	position:absolute;top:0.8em;
+	cursor:pointer;
+	font-size:90%;
+	background:red;
 }

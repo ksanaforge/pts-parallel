@@ -13,8 +13,8 @@ firebase.initializeApp(config);
 const rootpath=function(path){
 	return firebase.database().ref(path);
 }
-const bind=function(from,article,to){
+const binding=function(from,article,to){
 	return firebase.database().ref("bind").child(from+"/"+article+"/"+to);
 }
 
-module.exports={rootpath,firebase,bind};
+module.exports={rootpath,firebase,binding};
